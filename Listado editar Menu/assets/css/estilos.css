@@ -1,0 +1,336 @@
+.header {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 88.67%;
+
+background: #007DA4;
+
+}
+
+body {
+font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+.figure {
+position: absolute;
+width: 302px;
+height: 66px;
+left: 56px;
+top: 29px;
+
+background: url(logomimenu1.png);
+}
+
+#Verpedido {
+	position: absolute;
+	left: 53.33%;
+	right: 41.32%;
+	top: 12.79%;
+	bottom: 85.64%;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	
+	color: #000000;
+}
+
+#Observaciones {
+position: absolute;
+left: 59.38%;
+right: 32.85%;
+top: 12.79%;
+bottom: 85.64%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #000000;
+}
+
+#Nvasolicitud {
+position: absolute;
+left: 66.94%;
+right: 25.28%;
+top: 12.79%;
+bottom: 85.64%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #000000;
+
+}
+
+#Cancelacion {
+	position: absolute;
+	left: 74.03%;
+	right: 18.19%;
+	top: 12.79%;
+	bottom: 85.64%;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	
+	color: #000000;
+}
+
+#Salir {
+	position: absolute;
+	left: 79.31%;
+	right: 12.92%;
+	top: 12.89%;
+	bottom: 85.55%;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	
+	color: #000000;
+}
+
+#img1 {
+	position: absolute;
+	left: 0%;
+	right: 60%;
+	top: 11.13%;
+	bottom: 5.18%;
+	
+	background: url(img1.png);
+}
+
+#Home {
+position: absolute;
+left: 4.79%;
+right: 77.99%;
+top: 22.46%;
+bottom: 74.22%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#list {
+position: absolute;
+left: 4.79%;
+right: 77.99%;
+top: 29.69%;
+bottom: 66.99%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#Catalogue {
+	position: absolute;
+	left: 5.21%;
+	right: 77.57%;
+	top: 36.62%;
+	bottom: 60.06%;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	
+	color: #FFFFFF;
+	
+}
+
+#Order {
+	position: absolute;
+	left: 5.21%;
+	right: 77.57%;
+	top: 43.95%;
+	bottom: 52.73%;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	
+	color: #FFFFFF;
+	
+}
+
+#Employeers {
+	position: absolute;
+	left: 5.21%;
+	right: 77.57%;
+	top: 51.86%;
+	bottom: 44.82%;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	
+	color: #FFFFFF;
+	
+}
+
+#Repport {
+	position: absolute;
+	left: 0%;
+	right: 71.67%;
+	top: 60.25%;
+	bottom: 33.89%;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	
+	color: #FFFFFF;
+
+}
+
+#Administrator {
+	position: absolute;
+	left: 5.21%;
+	right: 77.57%;
+	top: 67.77%;
+	bottom: 26.46%;
+	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	
+	color: #FFFFFF;
+
+}
+
+.footer {
+	position: absolute;
+	left: 0.07%;
+	right: -0.07%;
+	top: 100.2%;
+	bottom: -5.57%;
+	
+	background: #007DA4;
+	transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+
+#Vector2 {
+position: absolute;
+left: 0.03%;
+right: 71.67%;
+top: 27.05%;
+bottom: 72.95%;
+
+border: 1px solid #FFFFFF;
+
+}
+
+#Vector2.2 {
+position: absolute;
+left: 0%;
+right: 71.67%;
+top: 34.28%;
+bottom: 65.72%;
+
+border: 1px solid #FFFFFF;
+
+}
+
+#Vector2.3 {
+	position: absolute;
+	left: 0%;
+	right: 71.67%;
+	top: 41.21%;
+	bottom: 58.79%;
+	
+	border: 1px solid #FFFFFF;
+
+}
+
+#Vector2.4 {
+position: absolute;
+left: 0%;
+right: 71.67%;
+top: 49.41%;
+bottom: 50.59%;
+
+border: 1px solid #FFFFFF;
+
+}
+
+#Vector2.5 {
+	position: absolute;
+	left: 0%;
+	right: 71.67%;
+	top: 57.62%;
+	bottom: 42.38%;
+	
+	border: 1px solid #FFFFFF;
+
+}
+
+#Vector2.6 {
+	position: absolute;
+	left: 0%;
+	right: 71.67%;
+	top: 66.11%;
+	bottom: 33.89%;
+	
+	border: 1px solid #FFFFFF;
+
+}
+
+#Vector2.7 {
+	position: absolute;
+	left: 0%;
+	right: 71.67%;
+	top: 74.51%;
+	bottom: 25.49%;
+	
+	border: 1px solid #FFFFFF;
+	
+}

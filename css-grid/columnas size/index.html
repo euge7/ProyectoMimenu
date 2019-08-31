@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Tamaño de item en columnas</title>
+	<style>
+body {
+font-family: Roboto;
+color: #686A6A;
+	}
+.container {
+display: grid;
+grid-template-columns: repeat(3, 1fr;
+grid-template-rows: repeat(4, 1fr);
+/*grid-templete: filas / columnas;*/
+/*fr*/
+/*grid-template: 623px / repeat(2, minmax(200px, 1fr));*/
+/*grid-template: 623px / minmax(200px, 1fr) 1fr 1fr 1fr;se aplica minmax
+para q las columnas se sigan adaptando pero la primera no se mueve*/
+grid-template: 116px 1fr 52px/ 411px, 1fr;
+grid-gap: 5px 8px;
+height: 100vh;
+}
+.item{
+background: #FFFFFF;
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 1px;
+/*margin-right: 2px;
+margin-bottom:2px;*/
+}
+
+.item:nth-of-type(2) {
+background: #FFFFFF;
+	display: grid;
+	grid-template: 40px / 97px 179px 59px 105px;
+}
+.item .item {
+background: yellow;
+}
+.header {
+grid-area: header;
+
+}
+
+.left {
+grid-area: left;
+
+}
+
+.contenido {
+grid-area: contenido;
+
+}
+
+.footer {
+grid-area: footer;
+
+}
+
+
+</style>
+</head>
+
+<body>
+	<section class="container">
+	<div class="item header">header</div>
+	<div class="item left">left</div>
+	<div class="item contenido">contenido</div>
+	<div class="item footer">footer</div>
+</section>
+
+</body>
+</html>

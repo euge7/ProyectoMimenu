@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Funciones</title>
+	<style>
+body {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #686A6A;
+
+	}
+.container {
+display: grid;
+/*grid-template-columns: 138px 523px
+grid-template-rows: 623x;*/
+/*grid-templete: filas / columnas;*/
+/*fr*/
+/*grid-template: 623px / repeat(2, minmax(200px, 1fr));*/
+/*grid-template: 623px / minmax(200px, 1fr) 1fr 1fr 1fr;se aplica minmax
+para q las columnas se sigan adaptando pero la primera no se mueve*/
+grid-template: 623px / 138px 523px;
+/*sustituye a margin right y bottom*/ 
+grid-column-gap: 2px;
+grid-row-gap: 2px;
+/*grid-gap: filas columnas;*/
+grid-gap: 5px 8px;
+}
+.item{
+background: #FFFFFF;
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 1px;
+/*margin-right: 2px;
+margin-bottom:2px;*/
+}
+
+.item:nth-of-type(2) {
+background: #FFFFFF;
+	display: grid;
+	grid-template: 40px / 97px 179px 59px 105px;
+}
+.item .item {
+background: yellow;
+
+}
+
+
+</style>
+</head>
+
+<body>
+	<section class="container">
+	<div class="item">Sopas</div>
+	<div class="item">
+<item></item>
+<item>Sopas</item>
+<item>Editar</item>
+<item>Eliminar</item>
+<item>Lunes</item>
+<item>subitem #6</item>
+<item>subitem #7</item>
+<item>subitem #8</item>
+<item></item>
+<item>subitem #10</item>
+<item>subitem #11</item>
+<item>subitem #12</item>
+<item></item>
+<item>subitem #14</item>
+<item>subitem #15</item>
+<item>subitem #16</item>
+<item>Martes</item>
+<item>subitem #18</item>
+<item>subitem #19</item>
+<item>subitem #20</item>
+<item></item>
+<item>subitem #22</item>
+<item>subitem #23</item>
+<item>subitem #24</item>
+<item></item>
+<item>subitem #26</item>
+<item>subitem #27</item>
+<item>subitem #28</item>
+<item>Miércoles</item>
+<item>subitem #30</item>
+<item>subitem #31</item>
+<item>subitem #32</item>
+<item></item>
+<item>subitem #34</item>
+<item>subitem #35</item>
+<item>subitem #36</item>
+<item></item>
+<item>subitem #38</item>
+<item>subitem #39</item>
+<item>subitem #40</item>
+<item>Jueves</item>
+<item>subitem #42</item>
+<item>subitem #43</item>
+<item>subitem #44</item>
+<item></item>
+<item>subitem #46</item>
+<item>subitem #47</item>
+<item>subitem #48</item>
+<item></item>
+<item>subitem #50</item>
+<item>subitem #51</item>
+<item>subitem #52</item>
+<item>Viernes</item>
+<item>subitem #54</item>
+<item>subitem #55</item>
+<item>subitem #56</item>
+<item></item>
+<item>subitem #58</item>
+<item>subitem #59</item>
+<item>subitem #60</item>
+<item></item>
+<item>subitem #62</item>
+<item>subitem #63</item>
+<item>subitem #64</item>
+	</div>
+	<div class="item">contenido #3</div>
+
+</section>
+
+</body>
+</html>
